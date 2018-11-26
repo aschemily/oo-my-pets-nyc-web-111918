@@ -17,12 +17,12 @@ class Owner
     
   end 
   
-  # def self.reset_all 
-  #   @@all.each do |method|
-  #     reset_all(method)
-  #   end 
-  #   @@all = []
-  # end 
+  def self.reset_all 
+    @@all.each do |method|
+      reset_all(method)
+    end 
+    @@all = []
+  end 
   
   def self.all 
     @@all 
