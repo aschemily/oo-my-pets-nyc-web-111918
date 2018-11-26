@@ -16,7 +16,7 @@ class Owner
   
   def self.reset_all 
     @@all.each do |method|
-      remove_method(method)
+      reset_all(method)
     end 
     @@all = []
   end 
