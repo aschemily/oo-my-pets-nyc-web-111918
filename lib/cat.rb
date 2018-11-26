@@ -1,4 +1,4 @@
-class Cat < Pet 
+class Cat #< Pet 
   # code goes here
   attr_reader :name  #defensive programming 
   attr_accessor :mood 
