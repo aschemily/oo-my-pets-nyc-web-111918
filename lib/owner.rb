@@ -12,6 +12,7 @@ class Owner
   def self.count 
      @@all.each do |method|
       reset_all(method)
+    end 
     @@all.size 
     
   end 
