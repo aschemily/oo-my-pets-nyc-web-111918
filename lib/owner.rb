@@ -21,6 +21,8 @@ class Owner
     @@all = []
   end 
   
+  def self.remove_method
+  
   def self.all 
     @@all 
   end 
