@@ -22,6 +22,7 @@ class Owner
   end 
   
   def self.remove_method(method)
+    
   end 
   
   def self.all 
